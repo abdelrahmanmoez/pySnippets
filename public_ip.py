@@ -1,3 +1,10 @@
+'''
+@author: Abdelrahman Moez - aka Hydra
+@script: public_ip.py
+@description: This snippet is to get your public ip address.
+@python version: 2.7
+'''
+
 # import needed modules
 import re
 import urllib2
