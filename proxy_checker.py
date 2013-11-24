@@ -21,7 +21,6 @@ def test_proxy(proxy_ip, proxy_port):
     auth = urllib2.HTTPBasicAuthHandler()
     opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
     install = urllib2.install_opener(opener)
-    open_link = urllib2.urlopen('http://adf.ly/Zb4eb')
     current_ip = get_public_ip()
     if real_ip == current_ip:
         return False
